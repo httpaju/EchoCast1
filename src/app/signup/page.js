@@ -268,9 +268,9 @@ export default function Signup() {
           </>
         )}
         <p className="mt-4 sm:mt-6 text-center text-xs sm:text-sm text-gray-400">
-          Having issues?{' '}
-          <button onClick={handleLogout} className="font-medium text-purple-500 hover:text-purple-400">
-            Log out
+          Have an account?{' '}
+          <button onClick={() => router.push('/login')} className="font-medium text-purple-500 hover:text-purple-400">
+            Log In
           </button>
         </p>
       </div>
