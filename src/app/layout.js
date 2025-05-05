@@ -5,7 +5,7 @@ import AuthWrapper from '../components/AuthWrapper'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Streamora',
+  title: 'EchoCast',
   description: 'Music streaming app',
 }
 
