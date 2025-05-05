@@ -50,7 +50,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md p-6 sm:p-8 space-y-6 sm:space-y-8 bg-gray-800 rounded-xl shadow-2xl">
         <div className="text-center">
           <h1 className="text-2xl sm:text-3xl font-bold text-white">Welcome back</h1>
-          <p className="mt-2 text-sm sm:text-base text-gray-400">Sign into Streamora to access your playlists, liked tracks, and more.</p>
+          <p className="mt-2 text-sm sm:text-base text-gray-400">Sign into EchoCast to access your playlists, liked tracks, and more.</p>
         </div>
         <form onSubmit={handleLogin} className="space-y-4 sm:space-y-6">
           <div>
