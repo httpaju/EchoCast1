@@ -2040,7 +2040,7 @@ export default function HomePage() {
               className="w-64 bg-gray-900 p-6 hidden md:flex flex-col h-full"
             >
               <div className="flex flex-col h-full">
-                <h1 className="text-3xl font-bold mb-8 text-white">Streamora</h1>
+                <h1 className="text-3xl font-bold mb-8 text-white">EchoCast</h1>
                 
                 <nav className="space-y-4">
                   {renderNavItem('Explore', <Compass className="mr-3" size={20} />, 'Explore')}
