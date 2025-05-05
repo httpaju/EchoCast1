@@ -155,15 +155,15 @@ export default function Signup() {
         {(verificationSent) ? (
           <div className="text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-white">Verification Sent</h2>
-            <p className="mt-2 text-sm sm:text-base text-gray-400">A verification email has been sent to your email address. To prevent fake accounts and data wastage, Streamora requires all users to verify their email address.</p>
-            <p className="mt-2 text-sm sm:text-base text-gray-400">Please check your inbox and click the verification link to use Streamora.</p>
+            <p className="mt-2 text-sm sm:text-base text-gray-400">A verification email has been sent to your email address. To prevent fake accounts and data wastage, EchoCast requires all users to verify their email address.</p>
+            <p className="mt-2 text-sm sm:text-base text-gray-400">Please check your inbox and click the verification link to use EchoCast.</p>
             {isVerified && <p className="mt-2 text-sm sm:text-base text-green-500">Email verified! Redirecting to home page...</p>}
           </div>
         ) : (
           <>
             <div className="text-center">
               <h2 className="text-2xl sm:text-3xl font-bold text-white">Create your account</h2>
-              <p className="mt-2 text-sm sm:text-base text-gray-400">Join Streamora today</p>
+              <p className="mt-2 text-sm sm:text-base text-gray-400">Join EchoCast today</p>
             </div>
             {error && <p className="text-xs sm:text-sm text-red-500 text-center">{error}</p>}
             <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
