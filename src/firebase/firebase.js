@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCd374nZFnsxAnc1nYN7-UtFWMVcjMtlf0",
-  authDomain: "streamora-9cvm.onrender.com",
+  authDomain: "movie-stream-4ac11.firebaseapp.com",
   projectId: "movie-stream-4ac11",
   storageBucket: "movie-stream-4ac11.firebasestorage.app",
   messagingSenderId: "360286423205",
